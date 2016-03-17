@@ -1,0 +1,35 @@
+<template name="login">
+
+  <div data-role="page" id="login" class="secondarypage" data-theme="b">
+
+
+    <div role="main" class="ui-content">
+
+      <div class="content-block-login">
+
+        <div class="form_logo">LOGIN</div>
+
+        <div class="loginform">
+
+          <form id="LoginForm" method="post">
+            <input type="text" name="Username" value="" class="form_input required" placeholder="username" data-role="none" />
+            <input type="password" name="Password" value="" class="form_input required" placeholder="password" data-role="none" />
+            <div class="forgot_pass"><a href="forgotpass.html" data-transition="slidedown">Forgot Password?</a></div>
+            <input type="submit" name="submit" class="form_submit" id="submit" data-role="none" value="SIGN IN" />
+          </form>
+
+          <div class="signup_bottom">
+            <p>Don't have an Kwame?</p>
+            <a href="register.html" data-transition="slidedown">SIGN UP</a>
+          </div>
+
+        </div>
+
+        <div class="close_loginpopup_button"><a href="#" data-rel="back"><img src="images/icons/black/menu_close.png" alt="" title="" /></a></div>
+      </div>
+
+    </div><!-- /content -->
+
+
+  </div><!-- /page -->
+</template>

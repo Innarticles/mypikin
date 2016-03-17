@@ -1,16 +1,14 @@
 Router.map ->
   @route "home",
-    path: "/shop"
-    layoutTemplate: "homeLayout"
+    path: "/"
     fastRender: true
     onBeforeAction: ->
-      Session.update('stateSelection', 0);
+      console.log "in the home"
       this.next()
 
-  # @route "welcome",
-  #     path: "/home"
-  #     layoutTemplate: "welcomeLayout"
-  #     fastRender: false
+  @route "login",
+      path: "/login"
+      fastRender: false
 
 
 #   @route "howItWorks",
@@ -341,7 +339,7 @@ Router.map ->
 
 
 Router.route 'static_index',
-  path: "/"
+  path: "/testing"
   where: 'server'
   action: ->
     contents = Assets.getText('index.html')
