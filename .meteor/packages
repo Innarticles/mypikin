@@ -1,0 +1,71 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+blaze-html-templates    # Compile .html files into Meteor Blaze views
+session                 # Client-side reactive dictionary for your app
+jquery                  # Helpful client-side library
+tracker                 # Meteor's client-side reactive programming library
+
+standard-minifiers      # JS/CSS minifiers run for production mode
+es5-shim                # ECMAScript 5 compatibility for older browsers.
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+
+autopublish             # Publish all data to the clients (for prototyping)
+insecure                # Allow all DB writes from clients (for prototyping)
+
+
+accounts-ui
+accounts-password
+accounts-base
+useraccounts:bootstrap
+
+coffeescript
+email
+http
+reactive-var
+check
+random
+yogiben:autoform-file
+meteorhacks:subs-manager
+yogiben:admin
+aldeed:simple-schema
+aldeed:autoform@5.1.2
+aldeed:collection2@2.3.3
+dburles:collection-helpers
+matb33:collection-hooks
+yogiben:helpers
+
+iron:router
+meteorhacks:npm
+aldeed:schema-deny
+meteorhacks:fast-render
+jazeee:spiderable-longer-timeout
+
+fortawesome:fontawesome
+twbs:bootstrap
+timmyg:wow
+kevohagan:sweetalert
+sacha:spin
+natestrauser:animate-css
+momentjs:moment
+
+reywood:iron-router-ga
+useraccounts:iron-routing
+
+juliancwirko:s-alert-genie
+yogiben:autoform-modals
+yogiben:autoform-map
+
+u2622:persistent-session
+cmather:handlebars-server
+reywood:publish-composite
+juliancwirko:s-alert-jelly
+alanning:roles
+sergeyt:typeahead
+npm-container
