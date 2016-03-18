@@ -11,7 +11,14 @@ Router.map ->
   @route "status",
       path: "/"
 
+  @route "tips",
+    path: "/tips"
 
+  @route "contact",
+    path: "/contact"
+
+  @route "healthtip",
+    path: "/healthtip"
 
   @route "about",
     path: "/about"

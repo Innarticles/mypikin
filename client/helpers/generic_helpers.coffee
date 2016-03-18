@@ -32,7 +32,7 @@ Template.saveToday.helpers
 Template.status.helpers
     progress: () ->
         if Payments.findOne()
-            getTheTotalAmountContributed()/getTotalPayable() * 100
+            Math.ceil(getTheTotalAmountContributed()/getTotalPayable() * 100)
 
 getTotalPayable = ()->
     delivery = Pikins.findOne()?.choiceOfDelivery
