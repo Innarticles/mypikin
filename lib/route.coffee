@@ -1,14 +1,37 @@
 Router.map ->
-  @route "home",
-    path: "/"
-    fastRender: true
+  @route "splash",
+    path: "/splash"
     onBeforeAction: ->
-      console.log "in the home"
-      this.next()
+      Meteor.setTimeout (->
+        @redirect('/')
+      ), 10000
+      @next()
 
-  @route "login",
-      path: "/login"
-      fastRender: false
+      
+  @route "status",
+      path: "/"
+
+
+
+  @route "about",
+    path: "/about"
+
+  @route "saveToday",
+      path: "/saveToday"
+      onBeforeAction: ->
+        if (!Pikins.find().count())
+          @redirect('setup')
+        @next()
+
+  @route "setup",
+      path: "/setup"
+      onBeforeAction: ->
+        if Pikins.find().count()
+          @redirect('/')
+        @next()
+
+  @route "paymentPlan",
+      path: "/paymentPlan"
 
 
 #   @route "howItWorks",

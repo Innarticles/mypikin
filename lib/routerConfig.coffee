@@ -3,11 +3,8 @@
 Router.configure
   routeControllerNameConverter: "camelCase"
   trackPageView: true
-  onBeforeAction: ->
-    # Redirect to set username if required
-    # if Config.username and Meteor.userId() and not Meteor.user().username
-    #   @redirect '/setUserName'
-    @next()
+  layoutTemplate: "masterLayout",
+
 
 
 # Router.waitOn ->
@@ -28,8 +25,13 @@ Router.onAfterAction ->
       $bd.remove()
     , 300
 #To allow non-logged in users to access more routes, add it in the config file
-Router.plugin 'ensureSignedIn', except: [
-  'home'
-  'static_index'
-]
+# Router.plugin 'ensureSignedIn', except: [
+#   'home'
+#   'static_index'
+#   'status'
+#   'splash'
+#   'saveToday'
+#   'paymentPlan'
+#   'setup'
+# ]
 

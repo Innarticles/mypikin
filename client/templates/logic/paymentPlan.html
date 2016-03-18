@@ -1,0 +1,21 @@
+<template name="paymentPlan">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Total Amount Ghs 5000</h1>
+      </div>
+    </div>
+    <div class="row">
+      {{#autoForm id="updateSetup"  doc=pikin collection="Pikins" type="update"}}
+                      {{> afQuickField name="PaymentInterval" class='js-custom-select-option'}}
+                      {{> afQuickField name="invitedNumber"}}
+                      <button type="submit" class="">See your Progress</button>
+                  {{/autoForm}}
+      <br>
+      Invite contributor
+      <br>
+      Add more contributors
+      <a href="{{pathFor 'status'}}">Done Go to status</a>
+    </div>    
+  </div>
+</template>

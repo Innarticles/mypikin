@@ -48,29 +48,29 @@ $( document ).delegate("#blog", "pagecreate", function() {
 		});
 });
 
-$.widget( "ui.tabs", $.ui.tabs, {
+// $.widget( "ui.tabs", $.ui.tabs, {
 
-_createWidget: function( options, element ) {
-    var page, delayedCreate,
-        that = this;
+// _createWidget: function( options, element ) {
+//     var page, delayedCreate,
+//         that = this;
 
-    if ( $.mobile.page ) {
-        page = $( element )
-            .parents( ":jqmData(role='page'),:mobile-page" )
-            .first();
+//     if ( $.mobile.page ) {
+//         page = $( element )
+//             .parents( ":jqmData(role='page'),:mobile-page" )
+//             .first();
 
-        if ( page.length > 0 && !page.hasClass( "ui-page-active" ) ) {
-            delayedCreate = this._super;
-            page.one( "pagebeforeshow", function() {
-                delayedCreate.call( that, options, element );
-            });
-        }
-    } else {
-        return this._super();
-    }
-}
+//         if ( page.length > 0 && !page.hasClass( "ui-page-active" ) ) {
+//             delayedCreate = this._super;
+//             page.one( "pagebeforeshow", function() {
+//                 delayedCreate.call( that, options, element );
+//             });
+//         }
+//     } else {
+//         return this._super();
+//     }
+// }
 
-});
+// });
 
 
 $( document ).delegate("#contact", "pagecreate", function() {

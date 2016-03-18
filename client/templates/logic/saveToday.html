@@ -1,0 +1,22 @@
+<template name="saveToday">
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        Mamma, you are to save Ghs {{amountToday}} for my birth today
+        <input type='number' value='{{amountToday}}' id='amount'>
+        <br>
+        {{#autoForm id="saveToday" collection="Payments" type="insert"}}
+                      {{> afQuickField name="amount" value=amountToday}}
+                      {{> afQuickField name="setupId" type='hidden' value=pikin}}
+                      <button type="submit" id="saveToVCash" class="">Proceed to payment plan</button>
+                  {{/autoForm}}
+        <!-- TOdo: a toast saying thank you mamma -->
+      </div>
+    </div>
+
+  </div>
+</template>
+
+
+
+

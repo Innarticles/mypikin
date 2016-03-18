@@ -1,0 +1,16 @@
+<template name="setup">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Plan for Pikin</h1>
+      </div>
+    </div>
+    <div class="row">
+      {{#autoForm id="setup" collection="Pikins" type="insert"}}
+                      {{> afQuickField name="conceptionDate"}}
+                      {{> afQuickField name="choiceOfDelivery" class='js-custom-select-option'}}
+                      <button type="submit" class="">Proceed to payment plan</button>
+                  {{/autoForm}}
+    </div>    
+  </div>
+</template>

@@ -1,23 +1,18 @@
-// if (Meteor.isClient) {
-//   // counter starts at 0
-//   Session.setDefault('counter', 0);
+if (Meteor.isClient) {
+  // counter starts at 0
+    Template.masterLayout.rendered = function() {
+        if (!window.allScriptsLoaded) {
+            var scripts = [
+              'js/jquery.mobile-custom.js'
+            ];
+          }
+        }
+}
 
-//   Template.hello.helpers({
-//     counter: function () {
-//       return Session.get('counter');
-//     }
-//   });
+if (Meteor.isServer) {
+  Meteor.startup(function () {
+    // code to run on server at startup
+  });
+}
 
-//   Template.hello.events({
-//     'click button': function () {
-//       // increment the counter when button is clicked
-//       Session.set('counter', Session.get('counter') + 1);
-//     }
-//   });
-// }
 
-// if (Meteor.isServer) {
-//   Meteor.startup(function () {
-//     // code to run on server at startup
-//   });
-// }

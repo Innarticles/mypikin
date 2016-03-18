@@ -1147,3 +1147,7 @@ and (orientation : landscape) {
 .logo{
 margin:5% 0 0 0;
 }
+
+div.ui-panel-wrapper {
+    display: none !important;
+}
