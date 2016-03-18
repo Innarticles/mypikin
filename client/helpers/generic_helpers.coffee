@@ -1,8 +1,7 @@
 Template.saveToday.helpers
-    amountToday: () ->
-        totalPayable = getTotalPayable();
-        console.log getNumberOfPeriods()
-        amountToPayNow = Math.ceil (totalPayable/getNumberOfPeriods())
+    amountToday: ()->
+      getAmountPayableToday()
+        
 
 Template.paymentPlan.helpers
     pikin: () ->
@@ -33,6 +32,15 @@ Template.status.helpers
     progress: () ->
         if Payments.findOne()
             Math.ceil(getTheTotalAmountContributed()/getTotalPayable() * 100)
+    totalSaved: () ->
+      getTheTotalAmountContributed()
+    saveXToday: () ->
+      getAmountPayableToday()
+
+getAmountPayableToday = ()->
+  totalPayable = getTotalPayable();
+  console.log getNumberOfPeriods()
+  amountToPayNow = Math.ceil (totalPayable/getNumberOfPeriods())
 
 getTotalPayable = ()->
     delivery = Pikins.findOne()?.choiceOfDelivery

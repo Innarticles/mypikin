@@ -23,6 +23,8 @@ Router.map ->
   @route "about",
     path: "/about"
 
+  @route "profile",
+    path: "/profile"
   @route "saveToday",
       path: "/saveToday"
       onBeforeAction: ->

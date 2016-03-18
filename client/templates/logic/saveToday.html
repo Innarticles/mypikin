@@ -40,7 +40,7 @@
   }
   </style>
    <div class="image-container">
-    <img src="http://tribecalledcurl.com/wp-content/uploads/2014/05/Black-mothers-620x360.jpg" class="img-size"/>
+    <img src="images/Black-mothers-620x360.jpg" class="img-size"/>
     <div class="after progress"> Mamma, you are to save Ghs {{amountToday}} for my birth today</div>
   </div>
     <div class="container">
@@ -51,7 +51,7 @@
         {{#autoForm id="saveToday" collection="Payments" type="insert" }}
                       {{> afQuickField name="amount" value=amountToday class="form_input required"}}
                       {{> afQuickField name="setupId" type='hidden' value=pikin}}
-                      <button type="submit" id="saveToVCash" class="button_full">Proceed to payment plan</button>
+                      <a type="submit" id="saveToVCash" class="button_full">Proceed to payment plan</a>
                   {{/autoForm}}
         <!-- TOdo: a toast saying thank you mamma -->
       </div>
