@@ -34,6 +34,6 @@ Schemas.Payments = new SimpleSchema
     #                 value: user._id
 
 Payments.attachSchema(Schemas.Payments)
-Payments.after.insert (doc) ->
-  Meteor.call 'getTextMessage', doc, (e) ->
-  return
+
+Payments.before.insert (doc) ->
+  Meteor.call 'getTextMessage', (e) ->
