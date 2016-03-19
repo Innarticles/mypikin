@@ -917,7 +917,7 @@ html .ui-alt-icon .ui-radio-off:after {
     width: 8px;
     height: 8px;
     border-width: 5px;
-    border-style: solid; 
+    border-style: solid;
 }
 .ui-alt-icon.ui-btn.ui-radio-on:after,
 .ui-alt-icon .ui-btn.ui-radio-on:after {
@@ -940,7 +940,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
     background-color:           #e9e9e9;
     border-color:           #ddd;
     color:                  #333 ;
-    
+
     font-weight: bold;
 }
 .ui-bar-a {
@@ -958,7 +958,7 @@ html .ui-panel-page-container-a {
     background-color:           #fff ;
     border-color:           #ddd ;
     color:                  #333;
-    
+
 }
 .ui-body-a {
     border-width: 1px;
@@ -1005,7 +1005,7 @@ html head + body .ui-btn.ui-btn-a:visited {
     background-color:           #f6f6f6;
     border-color:           #ddd ;
     color:                  #333 ;
-    
+
 }
 /* Button hover */
 .ui-page-theme-a .ui-btn:hover,
@@ -1016,7 +1016,7 @@ html head + body .ui-btn.ui-btn-a:hover {
     background-color:           #ededed ;
     border-color:           #ddd ;
     color:                  #333;
-    
+
 }
 /* Button down */
 .ui-page-theme-a .ui-btn:active,
@@ -1027,7 +1027,7 @@ html head + body .ui-btn.ui-btn-a:active {
     background-color:           #e8e8e8 ;
     border-color:           #ddd ;
     color:                  #333 ;
-    
+
 }
 /* Active button */
 .ui-page-theme-a .ui-btn.ui-btn-active,
@@ -1509,7 +1509,7 @@ div.ui-mobile-viewport {
 .ui-mini .ui-btn-icon-notext,
 .ui-header .ui-btn-icon-notext,
 .ui-footer .ui-btn-icon-notext {
-    font-size: 16px;    
+    font-size: 16px;
     padding: 0;
 }
 .ui-btn-inline {
@@ -2205,11 +2205,11 @@ button.ui-btn-icon-notext,
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateX(0); /* Needed to work around an iOS 3.1 bug that causes listview thumbs to disappear when -webkit-visibility:hidden is used. */
     -webkit-transform-origin: 0;
-    
+
     -moz-backface-visibility: hidden;
     -moz-transform: translateX(0);
     -moz-transform-origin: 0;
-    
+
     backface-visibility :hidden;
     transform: translateX(0);
     transform-origin: 0;
@@ -2232,7 +2232,7 @@ button.ui-btn-icon-notext,
     -moz-animation-duration: 250ms;
     animation-name: flipintoright;
     animation-duration: 250ms;
-    
+
 }
 .turn.out.reverse {
     -webkit-transform: rotateY(90deg) scale(.9);
@@ -2299,17 +2299,17 @@ button.ui-btn-icon-notext,
 .flow {
     -webkit-transform-origin: 50% 30%;
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,.4);
-    -moz-transform-origin: 50% 30%; 
+    -moz-transform-origin: 50% 30%;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,.4);
-    transform-origin: 50% 30%;  
+    transform-origin: 50% 30%;
     box-shadow: 0 0 20px rgba(0,0,0,.4);
 }
 .ui-dialog.flow {
     -webkit-transform-origin: none;
     -webkit-box-shadow: none;
-    -moz-transform-origin: none;    
+    -moz-transform-origin: none;
     -moz-box-shadow: none;
-    transform-origin: none; 
+    transform-origin: none;
     box-shadow: none;
 }
 .flow.out {
@@ -2569,7 +2569,7 @@ li.ui-block-e {
 }
 .ui-grid-solo > .ui-block-a {
     width: 100%;
-    float: none; 
+    float: none;
 }
 /* preset breakpoint to switch to stacked grid styles below 35em (560px) */
 @media (max-width: 35em) {
@@ -2578,8 +2578,8 @@ li.ui-block-e {
     .ui-responsive > .ui-block-c,
     .ui-responsive > .ui-block-d,
     .ui-responsive > .ui-block-e {
-        width: 100%; 
-        float: none; 
+        width: 100%;
+        float: none;
     }
 }
 /* fixed page header & footer configuration */
@@ -2650,7 +2650,7 @@ li.ui-block-e {
     clip: rect(1px,1px,1px,1px);
 }
 .ui-header-fixed .ui-btn,
-.ui-footer-fixed .ui-btn { 
+.ui-footer-fixed .ui-btn {
     z-index: 10;
 }
 /* workarounds for other widgets */
@@ -2754,7 +2754,7 @@ li.ui-block-e {
     border: 0;
     outline: 0;
     -webkit-border-radius: inherit;
-    border-radius: inherit; 
+    border-radius: inherit;
     -webkit-appearance: none;
     -moz-appearance: none;
     cursor: pointer;
@@ -2816,7 +2816,7 @@ li.ui-block-e {
 }
 .ui-collapsible-content {
     display: block;
-    margin: 0;  
+    margin: 0;
     padding: .5em 1em;
 }
 .ui-collapsible-themed-content .ui-collapsible-content {
@@ -2842,27 +2842,27 @@ li.ui-block-e {
 }
 .ui-collapsible-heading,
 .ui-collapsible-heading > .ui-btn {
-    -webkit-border-radius: inherit; 
-    border-radius: inherit; 
+    -webkit-border-radius: inherit;
+    border-radius: inherit;
 }
 .ui-collapsible-set .ui-collapsible.ui-first-child {
-    -webkit-border-top-right-radius: inherit;   
+    -webkit-border-top-right-radius: inherit;
     border-top-right-radius: inherit;
-    -webkit-border-top-left-radius: inherit;    
-    border-top-left-radius: inherit;        
+    -webkit-border-top-left-radius: inherit;
+    border-top-left-radius: inherit;
 }
 .ui-collapsible-content,
 .ui-collapsible-set .ui-collapsible.ui-last-child {
-    -webkit-border-bottom-right-radius: inherit;    
+    -webkit-border-bottom-right-radius: inherit;
     border-bottom-right-radius: inherit;
-    -webkit-border-bottom-left-radius: inherit; 
-    border-bottom-left-radius: inherit;     
+    -webkit-border-bottom-left-radius: inherit;
+    border-bottom-left-radius: inherit;
 }
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading {
-    -webkit-border-bottom-right-radius: 0;  
+    -webkit-border-bottom-right-radius: 0;
     border-bottom-right-radius: 0;
-    -webkit-border-bottom-left-radius: 0;   
-    border-bottom-left-radius: 0;       
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 .ui-collapsible-set .ui-collapsible {
     margin: -1px -1em 0;
@@ -3012,23 +3012,23 @@ fieldset.ui-controlgroup {
     position: relative;
     top: -1em;
 }
-.ui-dialog-contain > .ui-header, 
-.ui-dialog-contain > .ui-content, 
-.ui-dialog-contain > .ui-footer { 
+.ui-dialog-contain > .ui-header,
+.ui-dialog-contain > .ui-content,
+.ui-dialog-contain > .ui-footer {
     display: block;
-    position: relative; 
+    position: relative;
     width: auto;
     margin: 0;
 }
 .ui-dialog-contain > .ui-header {
     overflow: hidden;
-    z-index: 10; 
+    z-index: 10;
     padding: 0;
     border-top-width: 0;
 }
 .ui-dialog-contain > .ui-footer {
-    z-index: 10; 
-    padding: 0 1em; 
+    z-index: 10;
+    padding: 0 1em;
     border-bottom-width: 0;
 }
 .ui-popup-open .ui-header-fixed,
@@ -3150,7 +3150,7 @@ fieldset.ui-controlgroup {
 }
 .ui-popup > .ui-btn-left,
 .ui-popup > .ui-btn-right {
-    position: absolute; 
+    position: absolute;
     top: -11px;
     margin: 0;
     z-index: 1101;
@@ -3227,7 +3227,7 @@ fieldset.ui-controlgroup {
 /**
  * For each side, the arrow is twice the desired size and its corner is aligned
  * with the edge of the container:
- *                                           
+ *
  *           /\         /\                +----+       /\
  *          /  \       /  \               | /\ |top   /  \
  *      +----+  \     /  +----+       +-->|/  \|     /    \
@@ -3276,7 +3276,7 @@ fieldset.ui-controlgroup {
     margin-left: -5.857864376269049px;
     margin-top: -4.142135623730951px;
 }
- 
+
 .ui-popup-arrow-container.ui-popup-arrow-l.ie .ui-popup-arrow {
     margin-left: -7.0710678118654755px;
     margin-top: -5.857864376269049px;
@@ -3394,7 +3394,7 @@ fieldset.ui-controlgroup {
     max-height: 100%;
     outline: 0;
     -webkit-border-radius: inherit;
-    border-radius: inherit; 
+    border-radius: inherit;
     -webkit-appearance: none;
     -moz-appearance: none;
     cursor: pointer;
@@ -3411,7 +3411,7 @@ fieldset.ui-controlgroup {
 .ui-select .ui-state-disabled select {
     display: none;
 }
-/* Because we add all classes of the select and option elements to the span... */ 
+/* Because we add all classes of the select and option elements to the span... */
 .ui-select span.ui-state-disabled {
     filter: Alpha(Opacity=100);
     opacity: 1;
@@ -3478,7 +3478,7 @@ fieldset.ui-controlgroup {
 .ui-selectmenu .ui-selectmenu-list {
     margin: 0;
     -webkit-border-radius: inherit;
-    border-radius: inherit; 
+    border-radius: inherit;
 }
 .ui-header:not(.ui-screen-hidden) + .ui-selectmenu-list {
     -webkit-border-top-right-radius: 0;
@@ -3564,7 +3564,7 @@ fieldset.ui-controlgroup {
 }
 .ui-listview > li.ui-first-child,
 .ui-listview > li.ui-first-child > a.ui-btn {
-    -webkit-border-top-right-radius: inherit;   
+    -webkit-border-top-right-radius: inherit;
     border-top-right-radius: inherit;
     -webkit-border-top-left-radius: inherit;
     border-top-left-radius: inherit;
@@ -3583,7 +3583,7 @@ fieldset.ui-controlgroup {
     border-bottom-right-radius: 0;
 }
 .ui-listview > li.ui-first-child > a.ui-btn + a.ui-btn {
-    -webkit-border-top-left-radius: 0;  
+    -webkit-border-top-left-radius: 0;
     border-top-left-radius: 0;
     -webkit-border-top-right-radius: inherit;
     border-top-right-radius: inherit;
@@ -3596,15 +3596,15 @@ fieldset.ui-controlgroup {
 }
 .ui-listview > li.ui-first-child img:first-child:not(.ui-li-icon) {
     -webkit-border-top-left-radius: inherit;
-    border-top-left-radius: inherit;    
+    border-top-left-radius: inherit;
 }
 .ui-listview > li.ui-last-child img:first-child:not(.ui-li-icon) {
     -webkit-border-bottom-left-radius: inherit;
-    border-bottom-left-radius: inherit; 
+    border-bottom-left-radius: inherit;
 }
 .ui-collapsible-content > .ui-listview:not(.ui-listview-inset) {
     -webkit-border-radius: inherit;
-    border-radius: inherit; 
+    border-radius: inherit;
 }
 .ui-listview > .ui-li-static {
     padding: .7em 1em;
@@ -4364,35 +4364,35 @@ html .ui-popup .ui-field-contain > label + .ui-flipswitch {
  Styles for the table columntoggle mode
 */
 .ui-table-reflow td .ui-table-cell-label,
-.ui-table-reflow th .ui-table-cell-label { 
+.ui-table-reflow th .ui-table-cell-label {
     display: none;
 }
-/* Mobile first styles: Begin with the stacked presentation at narrow widths */ 
+/* Mobile first styles: Begin with the stacked presentation at narrow widths */
 @media only all {
-    /* Hide the table headers */ 
-    .ui-table-reflow thead td, 
+    /* Hide the table headers */
+    .ui-table-reflow thead td,
     .ui-table-reflow thead th {
         display: none;
     }
-    /* Show the table cells as a block level element */ 
+    /* Show the table cells as a block level element */
     .ui-table-reflow td,
-    .ui-table-reflow th { 
+    .ui-table-reflow th {
         text-align: left;
         display: block;
     }
-    /* Add a fair amount of top margin to visually separate each row when stacked */  
+    /* Add a fair amount of top margin to visually separate each row when stacked */
     .ui-table-reflow tbody th {
         margin-top: 3em;
     }
-    /* Make the label elements a percentage width */ 
+    /* Make the label elements a percentage width */
     .ui-table-reflow td .ui-table-cell-label,
-    .ui-table-reflow th .ui-table-cell-label { 
-        padding: .4em; 
-        min-width: 30%; 
+    .ui-table-reflow th .ui-table-cell-label {
+        padding: .4em;
+        min-width: 30%;
         display: inline-block;
         margin: -.4em 1em -.4em -.4em;
     }
-    /* For grouped headers, have a different style to visually separate the levels by classing the first label in each col group */ 
+    /* For grouped headers, have a different style to visually separate the levels by classing the first label in each col group */
     .ui-table-reflow th .ui-table-cell-label-top,
     .ui-table-reflow td .ui-table-cell-label-top {
         display: block;
@@ -4403,9 +4403,9 @@ html .ui-popup .ui-field-contain > label + .ui-flipswitch {
         font-weight: normal;
     }
 }
-/* Breakpoint to show as a standard table at 560px (35em x 16px) or wider */ 
+/* Breakpoint to show as a standard table at 560px (35em x 16px) or wider */
 @media ( min-width: 35em ) {
-    /* Show the table header rows */ 
+    /* Show the table header rows */
     .ui-table-reflow.ui-responsive td,
     .ui-table-reflow.ui-responsive th,
     .ui-table-reflow.ui-responsive tbody th,
@@ -4415,14 +4415,14 @@ html .ui-popup .ui-field-contain > label + .ui-flipswitch {
         display: table-cell;
         margin: 0;
     }
-    /* Hide the labels in each cell */ 
+    /* Hide the labels in each cell */
     .ui-table-reflow.ui-responsive td .ui-table-cell-label,
-    .ui-table-reflow.ui-responsive th .ui-table-cell-label { 
+    .ui-table-reflow.ui-responsive th .ui-table-cell-label {
         display: none;
     }
 }
-/* Hack to make IE9 and WP7.5 treat cells like block level elements, scoped to ui-responsive class */ 
-/* Applied in a max-width media query up to the table layout breakpoint so we don't need to negate this*/ 
+/* Hack to make IE9 and WP7.5 treat cells like block level elements, scoped to ui-responsive class */
+/* Applied in a max-width media query up to the table layout breakpoint so we don't need to negate this*/
 @media ( max-width: 35em ) {
     .ui-table-reflow.ui-responsive td,
     .ui-table-reflow.ui-responsive th {
@@ -4650,7 +4650,7 @@ html .ui-popup .ui-field-contain > label + .ui-flipswitch {
         margin-left: 20em;
     }
     .ui-responsive-panel .ui-panel-page-content-open {
-        width: auto;    
+        width: auto;
     }
     .ui-responsive-panel .ui-panel-dismiss-display-push,
     .ui-responsive-panel.ui-page-active ~ .ui-panel-dismiss-display-push {
@@ -4671,12 +4671,12 @@ Template:   Biotic - Mobile Web APP Template
 
 /*===============================================*/
 /* MAIN COLOR */
-/*===============================================*/ 
+/*===============================================*/
 a, blockquote span {
 color: #e4b000;
 }
 a.button_full, a.button_small, .call_button a{
-background-color:#e4b000; 
+background-color:#e4b000;
 }
 .logo h2{
 color:#4a250a;
@@ -4693,7 +4693,7 @@ color:#e4b000;
 .post_date, #loadMore{
 color:#e4b000;
 }
-.contactform input.form_submit, .loginform input.form_submit, .commentform input.form_submit{ 
+.contactform input.form_submit, .loginform input.form_submit, .commentform input.form_submit{
 background-color:#839109;
 }
 .ui-page-theme-b .ui-btn.ui-btn-active, html .ui-bar-b .ui-btn.ui-btn-active, html .ui-body-b .ui-btn.ui-btn-active, html body .ui-group-theme-b .ui-btn.ui-btn-active, html head + body .ui-btn.ui-btn-b.ui-btn-active, .ui-page-theme-b .ui-checkbox-on::after, html .ui-bar-b .ui-checkbox-on::after, html .ui-body-b .ui-checkbox-on::after, html body .ui-group-theme-b .ui-checkbox-on::after, .ui-btn.ui-checkbox-on.ui-btn-b::after, .ui-page-theme-b .ui-flipswitch-active, html .ui-bar-b .ui-flipswitch-active, html .ui-body-b .ui-flipswitch-active, html body .ui-group-theme-b .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active, .ui-page-theme-b .ui-slider-track .ui-btn-active, html .ui-bar-b .ui-slider-track .ui-btn-active, html .ui-body-b .ui-slider-track .ui-btn-active, html body .ui-group-theme-b .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-b .ui-btn-active {
@@ -4792,7 +4792,7 @@ html body .ui-group-theme-b .ui-bar-inherit {
 }
 /*===============================================*/
 /* LEFT AND RIGHT SLIDE PANEL */
-/*===============================================*/ 
+/*===============================================*/
 .ui-body-b,
 .ui-page-theme-b .ui-body-inherit,
 html .ui-bar-b .ui-body-inherit,
@@ -4851,7 +4851,7 @@ Template:   Biotic - Mobile Web APP Template
 
 /*===============================================*/
 /* 2. GENERAL                                */
-/*===============================================*/ 
+/*===============================================*/
 body {
 font-family: 'Source Sans Pro', sans-serif;
 margin: 0;
@@ -4860,13 +4860,13 @@ color: #232323;
 font-size: 14px;
 font-weight:300;
 }
-.clear{ 
-clear:both; 
+.clear{
+clear:both;
 display:block;
 }
-.clearleft{ 
-clear:both; 
-float:left; 
+.clearleft{
+clear:both;
+float:left;
 display:block;
 }
 a {
@@ -4893,9 +4893,9 @@ text-transform:uppercase;
 line-height:22px;
 }
 .videocontainer{
-max-width:100%; 
-padding:0; 
-display: block; 
+max-width:100%;
+padding:0;
+display: block;
 margin:0;
 }
 #homepage :not(INPUT):not(TEXTAREA) {
@@ -4911,20 +4911,20 @@ text-shadow:none;
 }
 /*===============================================*/
 /* 3. CUSTOM BUTTONS */
-/*===============================================*/ 
+/*===============================================*/
 a.button_full{
 width:100%;
 display:inline-block;
-color:#FFFFFF; 
+color:#FFFFFF;
 padding:10px 0;
 margin:0 0 20px 0;
 font-size:18px;
 text-align:center;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
 }
-a.button_small{ 
+a.button_small{
 display:inline-block;
-color:#FFFFFF; 
+color:#FFFFFF;
 padding:10px 20px;
 text-align:center;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
@@ -4941,7 +4941,7 @@ font-size:20px;
 }
 /*===============================================*/
 /* 4. LEFT AND RIGHT SLIDE PANELS */
-/*===============================================*/ 
+/*===============================================*/
 #left-panel{
 width: 8em;
 }
@@ -4954,7 +4954,7 @@ position: absolute;
 top: 0;
 left: 0;
 right: 0;
-bottom: 0px;  
+bottom: 0px;
 -webkit-overflow-scrolling: touch;
 }
 
@@ -5236,10 +5236,10 @@ margin:10px 0 0 18px;
 width:100%;
 height:30px;
 }
-.nav-toggle { 
+.nav-toggle {
 position:relative;
-cursor: pointer; 
-padding:15px 0 0 0; 
+cursor: pointer;
+padding:15px 0 0 0;
 }
 .nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
 cursor: pointer;
@@ -5251,7 +5251,7 @@ display: block;
 content: '';
 }
 .nav-toggle span:before {
-top: -7px; 
+top: -7px;
 }
 .nav-toggle span:after {
 bottom: -7px;
@@ -5268,7 +5268,7 @@ top: 0;
 }
 .nav-toggle.navtoggleon span:before {
 transform: rotate(45deg);
--webkit-transform: rotate(45deg); 
+-webkit-transform: rotate(45deg);
 -ms-transform: rotate(45deg);
 height:2px;
 }
@@ -5414,66 +5414,66 @@ margin:auto;
 /*===============================================*/
 /* 7. PHOTO GALLERY */
 /*===============================================*/
-ul.photo_gallery_13{ 
-width:100%; 
-list-style:none; 
-padding:0px; 
-margin:10px 0 20px 0;  
+ul.photo_gallery_13{
+width:100%;
+list-style:none;
+padding:0px;
+margin:10px 0 20px 0;
 clear:both;
 }
-ul.photo_gallery_13 li{ 
-width:31.3%; 
-padding:0; 
+ul.photo_gallery_13 li{
+width:31.3%;
+padding:0;
 margin:1%;
 display:block;
 float:left;
 }
-ul.photo_gallery_13 li img{ 
-max-width:100%; 
+ul.photo_gallery_13 li img{
+max-width:100%;
 display:block;
 margin:0px;
 padding:0px;
 }
-ul.photo_gallery_12{ 
-width:100%; 
-list-style:none; 
-padding:0px; 
-margin:10px 0 10px 0; 
-float:left; 
+ul.photo_gallery_12{
+width:100%;
+list-style:none;
+padding:0px;
+margin:10px 0 10px 0;
+float:left;
 clear:both;
 }
-ul.photo_gallery_12 li{ 
-width:48%; 
-padding:0; 
-float:left;  
+ul.photo_gallery_12 li{
+width:48%;
+padding:0;
+float:left;
 margin:1%;
 }
-ul.photo_gallery_12 li img{ 
-max-width:100%; 
+ul.photo_gallery_12 li img{
+max-width:100%;
 display:block;
 }
-ul.photo_gallery_11{ 
-width:100%; 
-list-style:none; 
-padding:0px; 
-margin:10px 0 10px 0; 
-float:left; 
+ul.photo_gallery_11{
+width:100%;
+list-style:none;
+padding:0px;
+margin:10px 0 10px 0;
+float:left;
 clear:both;
 }
-ul.photo_gallery_11 li{ 
-width:100%; 
-padding:0; 
-float:left; 
+ul.photo_gallery_11 li{
+width:100%;
+padding:0;
+float:left;
 margin:0px 0 10px 0;
 }
 ul.photo_gallery_11 li img{
-max-width:100%; 
+max-width:100%;
 display:block;
 }
 
 /*===============================================*/
 /* 8. BLOG LAYOUT */
-/*===============================================*/ 
+/*===============================================*/
 .blog_content{
 width:100%;
 padding:0 0;
@@ -5675,7 +5675,7 @@ font-style:italic;
 
 /*===============================================*/
 /* 9. FORMS */
-/*===============================================*/ 
+/*===============================================*/
 /* 9.1 CONTACT FORM */
 .contactform{
 width:100%;
@@ -5683,41 +5683,41 @@ padding:0 0 15px 0;
 }
 .contactform label{
 width:100%;
-padding:5px 0 3px 0; 
-display:block; 
+padding:5px 0 3px 0;
+display:block;
 font-size:16px;
 font-weight:700;
 }
 .contactform label.error{
-padding:0 0 10px 0; 
-width:100%; 
-text-align:left; 
+padding:0 0 10px 0;
+width:100%;
+text-align:left;
 font-size:14px;
 color:#f65821;
 font-weight:400;
 }
 .contactform input.form_input{
-padding:3%; 
-width:93%; 
+padding:3%;
+width:93%;
 margin:0 0 5px 0;
 border:1px solid #ddd;
 -webkit-appearance: none;
 }
 .contactform textarea.form_textarea{
-padding:3%; 
-width:93%; 
-height:50px; 
+padding:3%;
+width:93%;
+height:50px;
 margin:0 0 5px 0;
 border:1px solid #ddd;
 -webkit-appearance: none;
 }
-.contactform input.form_submit{ 
+.contactform input.form_submit{
 width:100%;
-padding:4% 0 4% 0; 
-margin:10px 0 0 0; 
+padding:4% 0 4% 0;
+margin:10px 0 0 0;
 font-weight:normal;
 text-align:center;
-cursor:pointer; 
+cursor:pointer;
 font-size:20px;
 color:#FFFFFF;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
@@ -5744,27 +5744,27 @@ width:90%;
 padding:0 0 15px 5%;
 }
 .loginform label.error{
-padding:0 0 10px 0; 
-width:100%; 
-text-align:left; 
+padding:0 0 10px 0;
+width:100%;
+text-align:left;
 font-size:14px;
 color:#f65821;
 font-weight:400;
 }
 .loginform input.form_input{
-padding:3%; 
-width:93%; 
+padding:3%;
+width:93%;
 margin:0 0 5px 0;
 border:1px solid #ddd;
 -webkit-appearance: none;
 }
-.loginform input.form_submit{ 
+.loginform input.form_submit{
 width:100%;
-padding:10px 0; 
-margin:15px 0 0 0; 
+padding:10px 0;
+margin:15px 0 0 0;
 font-weight:normal;
 text-align:center;
-cursor:pointer; 
+cursor:pointer;
 font-size:18px;
 color:#FFFFFF;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
@@ -5835,7 +5835,7 @@ right:0px;
 .close_loginpopup_button a img{
 display:block;
 max-width:60%;
-margin:auto; 
+margin:auto;
 }
 /* 9.3 COMMENT FORM */
 
@@ -5845,41 +5845,41 @@ padding:20px 0 15px 0;
 }
 .commentform label{
 width:100%;
-padding:5px 0 3px 0; 
-display:block; 
+padding:5px 0 3px 0;
+display:block;
 font-size:16px;
 font-weight:700;
 }
 .commentform label.error{
-padding:0 0 10px 0; 
-width:100%; 
-text-align:left; 
+padding:0 0 10px 0;
+width:100%;
+text-align:left;
 font-size:14px;
 color:#f65821;
 font-weight:400;
 }
 .commentform input.form_input{
-padding:3%; 
-width:93%; 
+padding:3%;
+width:93%;
 margin:0 0 5px 0;
 border:1px solid #ddd;
 -webkit-appearance: none;
 }
 .commentform textarea.form_textarea{
-padding:3%; 
-width:93%; 
-height:50px; 
+padding:3%;
+width:93%;
+height:50px;
 margin:0 0 5px 0;
 border:1px solid #ddd;
 -webkit-appearance: none;
 }
-.commentform input.form_submit{ 
+.commentform input.form_submit{
 width:100%;
-padding:4% 0 4% 0; 
-margin:10px 0 0 0; 
+padding:4% 0 4% 0;
+margin:10px 0 0 0;
 font-weight:normal;
 text-align:center;
-cursor:pointer; 
+cursor:pointer;
 font-size:20px;
 color:#FFFFFF;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
@@ -5916,7 +5916,7 @@ margin:0 0 0 0;
 }
 /*===============================================*/
 /* 11. MEDIA QUERIES */
-/*===============================================*/ 
+/*===============================================*/
 @media screen and (max-width: 800px) {
     .logo{
     margin:35% 0 0 0;
@@ -5958,7 +5958,7 @@ margin:0 0 0 0;
     margin:5% 0 0 0;
     }
 }
-/*============================== 
+/*==============================
     CSS RESET
 ================================= */
 html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
@@ -6003,11 +6003,11 @@ table {
 .clearfix {
     display: inline-block;
 }
-/* Hide from IE Mac \*/ 
+/* Hide from IE Mac \*/
 .clearfix{
     display: block;
 }
-/* End hide from IE Mac */ 
+/* End hide from IE Mac */
 .none {
     display: none;
 }
@@ -6096,7 +6096,7 @@ html.swipebox {
 }
 
 #swipebox-slider .slide .swipebox-video-container .swipebox-video iframe{
-  width: 100%!important; 
+  width: 100%!important;
   height: 100%!important;
   position: absolute;
   top: 0; left: 0;
@@ -6248,7 +6248,7 @@ html.swipebox {
 }
 
 
-/* Skin 
+/* Skin
 --------------------------*/
 #swipebox-overlay {
   background: #0d0d0d;
