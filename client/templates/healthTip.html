@@ -1,0 +1,90 @@
+<template name="healthtip">
+
+<div role="main" class="ui-content">
+
+
+  <div id="pages_maincontent">
+   
+    <div class="post_single">
+      
+      <div class="page_content">
+        <div class="back_btn"><a href="{{pathFor 'tips'}}" data-transition="flip"><img src="images/icons/black/back.png" alt="" title="" /></a></div> 
+        <div class="post_social"><a href="#" data-transition="slidedown"><img src="images/icons/black/heart.png" alt="" title="" /></a></div>   
+        <div class="post_title_single"><h2>Design is not just what it looks like and feels like.</h2></div> 
+        <div class="featured_image">
+          <img src="images/post_photo.jpg" alt="" title="" /> 
+        </div>
+        
+        
+        <div class="entry">
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.   </p>
+            <p>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            </p>
+            <ul class="simple_list">
+              <li>perspiciatis unde omnis</li>
+              <li>voluptatem accusantium</li>
+              <li>doloremque laudantium</li>
+            </ul>
+            <blockquote>
+              Design is not just what it looks like and feels like.
+            </blockquote>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      
+      <div class="page_content"> 
+        
+        
+        <div data-role="tabs" id="tabs">
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#" class="ui-btn-active">Leave a comment</a></li>
+              <li><a href="#">Comments</a></li>
+            </ul>
+          </div>
+          <div id="one">
+            <div class="commentform">
+              <form id="CommentForm" method="post" action="">
+                <label>Name:</label>
+                <input type="text" name="CommentName" id="CommentName" value="" class="form_input" data-role="none" />
+                <label>Email:</label>
+                <input type="text" name="CommentEmail" id="CommentEmail" value="" class="form_input" data-role="none" />
+                <label>Comment:</label>
+                <textarea name="Comment" id="Comment" class="form_textarea" rows="" cols="" data-role="none"></textarea>
+                <input type="submit" name="submit" class="form_submit" id="submit" value="Submit" data-role="none" />
+              </form>
+            </div>
+          </div>
+          <div id="two">
+            <ul class="comments">
+              <li class="comment_row">
+                <div class="comm_avatar"><img src="images/icons/black/user.png" alt="" title="" border="0" /></div>
+                <div class="comm_content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam velit sapien, eleifend in by <a href="#">John Doe</a></p></div>
+              </li>
+              <li class="comment_row">
+                <div class="comm_avatar"><img src="images/icons/black/user.png" alt="" title="" border="0" /></div>
+                <div class="comm_content"><p>Consectetur adipiscing elit. Nam velit sapien, eleifend in by <a href="#">John Doe</a></p></div>
+              </li>
+              <li class="comment_row">
+                <div class="comm_avatar"><img src="images/icons/black/user.png" alt="" title="" border="0" /></div>
+                <div class="comm_content"><p>Nam velit sapien, eleifend in by <a href="#">John Doe</a></p></div>
+              </li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+
+
+  </div>
+</template>
+
+
