@@ -44,4 +44,9 @@ matb33:collection-hooks
 yogiben:helpers
 twbs:bootstrap
 momentjs:moment
+
 pcel:toastr
+
+reactive-var
+kevohagan:sweetalert
+

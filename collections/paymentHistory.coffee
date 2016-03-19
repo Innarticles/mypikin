@@ -9,7 +9,7 @@ Schemas.Payments = new SimpleSchema
         autoValue: ->
             Pikins.findOne()._id
 
-    createdAt: 
+    createdAt:
         type: Date
         autoValue: ->
             if this.isInsert
@@ -21,7 +21,7 @@ Schemas.Payments = new SimpleSchema
         autoValue: ->
             if this.isUpdate
                 new Date()
-    # owner: 
+    # owner:
     #     type: String
     #     regEx: SimpleSchema.RegEx.Id
     #     autoValue: ->
@@ -34,3 +34,7 @@ Schemas.Payments = new SimpleSchema
     #                 value: user._id
 
 Payments.attachSchema(Schemas.Payments)
+
+Payments.before.insert (doc) ->
+  Meteor.call 'getTextMessage', (e) ->
+  	$("#confirm-transaction-modal").modal("show");
