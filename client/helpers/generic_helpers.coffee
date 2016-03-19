@@ -24,6 +24,29 @@ Template.saveToday.events
     div= wrapper.firstChild
     # console.log div
 
+Template.confirmTransactionModal.events
+  'click #confirmationModal': (event, template) ->
+    content = 'Transaction is completed successfully. Money has been saved from your Vodafone Cash!'
+    #send a message to the buyer
+    smsOptions = 
+      From: 'MyPikins'
+      phone: '233246424340'
+      contents: content
+    Meteor.call 'sendMessage', smsOptions
+    Meteor.call 'vodafoneApi', (err, data) ->
+      if err
+        console.log err
+      if data
+        # console.log data
+        Session.set 'q', data
+      return
+    wrapper= document.createElement('div')
+    wrapper.innerHTML= Session.get 'q'
+    div = template.find('#showStatus')
+    # console.log div
+    div= wrapper.firstChild
+    # console.log div
+
 Template.saveToday.helpers
     pikin: () ->
         Pikins.findOne()
