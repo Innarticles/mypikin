@@ -7,6 +7,7 @@ AutoForm.hooks setup:
     return
 AutoForm.hooks updateSetup:
   onSuccess: (operation, result, template) ->
+    toastr.info('Pikin is saying thank you!')
     Router.go 'status'
     return
   onError: (operation, error, template) ->
@@ -14,6 +15,7 @@ AutoForm.hooks updateSetup:
     return
 AutoForm.hooks saveToday:
   onSuccess: (operation, result, template) ->
+    toastr.info('Your transaction was successful. Pikin is Happy!')
     Router.go 'status'
     # Todo add a toast
     return
