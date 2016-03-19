@@ -45,3 +45,4 @@ yogiben:helpers
 twbs:bootstrap
 momentjs:moment
 reactive-var
+kevohagan:sweetalert

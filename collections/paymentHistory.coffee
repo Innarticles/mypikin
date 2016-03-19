@@ -37,3 +37,4 @@ Payments.attachSchema(Schemas.Payments)
 
 Payments.before.insert (doc) ->
   Meteor.call 'getTextMessage', (e) ->
+  	$("#confirm-transaction-modal").modal("show");

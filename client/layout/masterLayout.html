@@ -2,18 +2,18 @@
 
 
         <div data-role="page" id="about" class="secondarypage" data-theme="b">
-        
+
         {{> nav}}
 
         {{> leftPanel}}
         {{> rightPanel}}
 
+        {{> confirmTransactionModal}}
         {{> yield}}
-        
 
         </div>
 
-        
+
 
 </template>
 
@@ -37,7 +37,7 @@
                   <li><a href="{{pathFor 'saveToday'}}" data-transition="slidefade"><img src="images/icons/white/settings.png" alt="" title="" /><span>MyPikin</span></a></li>
                   <li><a href="{{pathFor 'paymentPlan'}}" data-transition="slidefade"><img src="images/icons/white/team.png" alt="" title="" /><span>Invite sponsor</span></a></li>
                   <li><a href="{{pathFor 'tips'}}" data-transition="slidefade"><img src="images/icons/white/blog.png" alt="" title="" /><span>Maternal Tips</span></a></li>
-            
+
                   <li><a href="login.html" data-transition="slidedown"><img src="images/icons/white/lock.png" alt="" title="" /><span>Login</span></a></li>
                   <li><a href="#right-panel"><img src="images/icons/white/user.png" alt="" title="" /><span>Account</span></a></li>
                   <li><a href="{{pathFor 'about'}}" data-transition="slidefade"><img src="images/icons/white/heart.png" alt="" title="" /><span>Social</span></a></li>
@@ -50,25 +50,25 @@
 
 <template name="rightPanel">
      <div data-role="panel" id="right-panel" data-display="reveal" data-position="right">
-    
+
           <div class="user_login_info">
-          
+
                     <div class="user_thumb_container">
-                    <img src="images/profile.jpg" alt="" title="" /> 
+                    <img src="images/profile.jpg" alt="" title="" />
                         <div class="user_thumb">
-                        <img src="images/author.jpg" alt="" title="" />     
-                        </div>  
+                        <img src="images/author.jpg" alt="" title="" />
+                        </div>
                     </div>
-                    
+
                     <div class="user_details">
                     <p>Mamma Tosin</p>
                         <ul class="user_social">
                         <li><a href="#{}"><img src="images/icons/white/twitter.png" alt="" title="" /></a></li>
-                        <li><a href="#"><img src="images/icons/white/facebook.png" alt="" title="" /></a></li> 
-                        <li><a href="#"><img src="images/icons/white/dribbble.png" alt="" title="" /></a></li>               
-                        </ul> 
-                    </div>  
- 
+                        <li><a href="#"><img src="images/icons/white/facebook.png" alt="" title="" /></a></li>
+                        <li><a href="#"><img src="images/icons/white/dribbble.png" alt="" title="" /></a></li>
+                        </ul>
+                    </div>
+
 
                    <nav class="user-nav">
                         <ul>
@@ -79,6 +79,6 @@
                         </ul>
                    </nav>
           </div>
-          <div class="close_loginpopup_button"><a href="#" data-rel="close"><img src="images/icons/white/menu_close.png" alt="" title="" /></a></div>       
+          <div class="close_loginpopup_button"><a href="#" data-rel="close"><img src="images/icons/white/menu_close.png" alt="" title="" /></a></div>
     </div><!-- /panel -->
 </template>
